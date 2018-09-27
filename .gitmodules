@@ -1,0 +1,3 @@
+[submodule "themes/hugo-elate-theme"]
+	path = themes/hugo-elate-theme
+	url = https://github.com/4Ply/hugo-elate-theme.git
