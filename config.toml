@@ -6,18 +6,21 @@ theme = "hugo-elate-theme"
 [params]
 
   custom_css = ["css/override.css", "css/custom2.css"]
+  custom_js = ["https://www.googletagmanager.com/gtag/js?id=UA-66821210-4", "js/gtag.js"]
 
   # Meta
-  author = ""
-  description = ""
-  email = ""
+  author = "Pawel Maskowicz"
+  description = "CV Pawel Maskowicz"
+  email = "p.maskowicz@gmail.com"
+
+
   # Navigation
   [params.navigation]
     brand = "Pawel.Guru"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    services = "Services"
+    services = "Experience"
     about = "About"
     contact = "Contact"
 
@@ -48,7 +51,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Dev"
     description = '''<ul>
-      <li>Java SE & EE</li>
+      <li>Java SE &amp; EE</li>
       <li>Android</li>
       <li>JavaScript</li>
       <li>NodeJS</li>
@@ -85,7 +88,7 @@ theme = "hugo-elate-theme"
     icon = "icon-bulb"
     img = "img_9.jpg"
 
-  [[params.intro.item]]
+  [[params.intro2.item]]
     title = "Style"
     description = '''<ul>
       <li>Agile</li>
@@ -98,7 +101,7 @@ theme = "hugo-elate-theme"
     img = "img_10.jpg"
 
 
-  [[params.intro.item]]
+  [[params.intro2.item]]
     title = "Domain"
     description = '''<ul>
       <li>RESTful APIs</li>
@@ -118,7 +121,7 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -161,7 +164,7 @@ theme = "hugo-elate-theme"
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -189,73 +192,95 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Experience"
+    description = "I live to learn, and I learn fast. I have worked with a variety of solutions along the stack; and I have strived and succeeded in becoming proficient in each of these areas in my journey to learn."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Objective-C, Swift, Java SE &amp; Android"
+      description = "I have worked on enterprise level Android and iOS mobile applications in a banking environment, with key focus on exposing functionality for Vehicle and Assets Finance, Insurance, and Home-loans."
+      icon = "icon-layers2"
+
+    [[params.services.item]]
+      title = "Java EE"
+      description = "I have worked with enterprise level Backend systems exposing RESTful APIs - with key focus on the integration between the consumer (mobile Frontends) and consuming multiple external systems exposed in both SOAP and REST formats. I have helped design, orchestrate, and implement architectures and changes to improve these systems."
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "TDD"
+      description = "I am highly familiar and skilled in the operation and execution of Test Driven Development, and the mobile and backend systems I have worked on have been written using TDD."
+      icon = "icon-list"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "MERN Stack - Javascript, NodeJs, HTML, CSS &amp; JSX"
+      description = "I have created and maintained a number of custom solutions that focus on active monitoring of API services, with reporting and management available via web interfaces, whilst the backend (core) system is designed to scale with the target environment. This system has been effectively used in monitoring enterprise level environments."
+      icon = "icon-puzzle"
+
+    [[params.services.item]]
+      title = "Linux"
+      description = "I am a Linux fanatic, and I primarily use Linux in my personal environments. Using Unix scripting to enhance and improve my daily work-cycle is often a high priority for me, as this allows me to work more efficiently and improves my throughput overall."
+      icon = "icon-settings"
+
+    [[params.services.item]]
+      title = "Virtualization - QEMU, Docker, Kubernetes"
+      description = "I have worked with virtualizing enterprise level systems, and I have a very strong understanding of Docker and other virtualization methodologies. I use Docker for most of my projects and systems, as I understand the overwhelming benefits of containerization."
+      icon = "icon-layers"
+
+    [[params.services.item]]
+      title = "Version Control - GIT, SVN"
+      description = "I am well versed in the art of version control; I use Git to track and manage all my personal projects and I use Git in an enterprise setting as well for all the other solutions mentioned on this page."
+      icon = "icon-control-end"
+
+    [[params.services.item]]
+      title = "Build Pipelines - CI/CD"
+      description = "I use Bamboo in an enterprise environment to build artifacts, and I have heavily contributed towards the designs and implementations of various tools which assist in running functional tests, and integration tests on enterprise applications as part of Continuous Delivery and Continuous Integration lifecycles."
+      icon = "icon-wrench"
 
   # About section
   [params.about]
     enable = true
+    background = "full_image_1.jpg"
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "I am a South African Software Developer with a demonstrated history of working in the computer software industry. <br/><br/>I am skilled in Android Development, iOS Development, Java, and Web technologies, along with a strong intimate knowledge of Linux and Docker. <br/><br/>I have a very strong drive to learn new technologies, and I have a history of rapid effective learning."
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
+    # [[params.about.item]]
+    #   name = "Jean Smith"
+    #   position = "Web Designer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person1.jpg"
+    #   alt = "Person1"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-linkedin", "#"]
+    #   ]
+    #
+    # [[params.about.item]]
+    #   name = "Rob Smith"
+    #   position = "Web Developer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person2.jpg"
+    #   alt = "Person2"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-github", "#"]
+    #   ]
+    #
+    # [[params.about.item]]
+    #   name = "Larry Ben"
+    #   position = "Web Designer"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person3.jpg"
+    #   alt = "Person3"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-dribbble", "#"]
+    #   ]
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -279,7 +304,7 @@ theme = "hugo-elate-theme"
       description = "Cups of coffee"
       icon = "icon-cup"
       from = 0
-      to = 1302
+      to = 1566
       interval = 50
       speed = 5000
 
@@ -294,17 +319,18 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "If you are interested in contacting me, please feel welcome to do so, especially if you have knowledge to share!"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-phone", "(+27) 72-662-0007"],
+        ["icon-envelope", "p.maskowicz@gmail.com"],
+        ["icon-social-github", '<a href="https://github.com/4Ply/" target="_blank">GitHub</a>'],
+        ["icon-globe", '<a href="https://www.linkedin.com/in/pawel-maskowicz-5b0476a7/" target="_blank">LinkedIn</a>'],
+        ["icon-social-twitter", '<a href="https://twitter.com/4Ply_ZA" target="_blank">Twitter</a>']
       ]
 
     name = "Name"
@@ -315,7 +341,7 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],
