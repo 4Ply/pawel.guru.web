@@ -9,4 +9,4 @@ FROM httpd:alpine
 
 EXPOSE 80
 
-COPY --source=build /src/public/ /usr/local/apache2/htdocs/
+COPY --from=build /src/public/ /usr/local/apache2/htdocs/
