@@ -232,7 +232,7 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Build Pipelines - CI/CD"
-      description = "I use Bamboo in an enterprise environment to build artifacts, and I have heavily contributed towards the designs and implementations of various tools which assist in running functional tests, and integration tests on enterprise applications as part of Continuous Delivery and Continuous Integration lifecycles."
+      description = "I use Bamboo in an enterprise environment to build artifacts, and I have heavily contributed towards the designs and implementations of various tools which assist in running functional and integration tests on enterprise applications as part of Continuous Delivery and Continuous Integration lifecycles."
       icon = "icon-wrench"
 
   # About section
