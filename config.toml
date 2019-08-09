@@ -330,7 +330,7 @@ theme = "hugo-elate-theme"
         ["icon-envelope", "p.maskowicz@gmail.com"],
         ["icon-social-github", '<a href="https://github.com/4Ply/" target="_blank">GitHub</a>'],
         ["icon-globe", '<a href="https://www.linkedin.com/in/pawel-maskowicz-5b0476a7/" target="_blank">LinkedIn</a>'],
-        ["icon-social-twitter", '<a href="https://twitter.com/4Ply_ZA" target="_blank">Twitter</a>']
+        ["icon-social-twitter", '<a href="https://twitter.com/pawel_maskowicz" target="_blank">Twitter</a>']
       ]
 
     name = "Name"
