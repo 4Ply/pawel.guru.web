@@ -49,40 +49,21 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Dev"
-    description = '''<ul>
-      <li>Java SE &amp; EE</li>
-      <li>Android</li>
-      <li>JavaScript</li>
-      <li>NodeJS</li>
-      <li>MERN Stack</li>
-      <li>HTML, CSS, JSX</li>
-    </ul>'''
+    description = "Java, Golang, NodeJS, Mobile"
     url = "#fh5co-work"
     icon = "icon-wrench"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Ops"
-    description = '''<ul>
-      <li>Linux</li>
-      <li>Docker</li>
-      <li>Kubernetes</li>
-      <li>QEMU</li>
-      <li>Version Control</li>
-      <li>Bamboo, CI/CD</li>
-    </ul>'''
+    description = "AWS, GNU + Linux, Docker, Kubernetes, QEMU, Version Control (git), CI/CD"
     url = "#"
     icon = "icon-rocket"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Quality"
-    description = '''<ul>
-      <li>Test Driven Development</li>
-      <li>Functional Testing</li>
-      <li>Integration Testing</li>
-      <li>Containerised Testing</li>
-    </ul>'''
+    description = "Test Driven Development, Functional Testing, Integration Testing, Containerised Testing"
     url = "#"
     icon = "icon-bulb"
     img = "img_9.jpg"
