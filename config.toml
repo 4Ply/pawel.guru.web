@@ -11,7 +11,6 @@ theme = "hugo-elate-theme"
   # Meta
   author = "Pawel Maskowicz"
   description = "CV Pawel Maskowicz"
-  email = "p.maskowicz@gmail.com"
 
 
   # Navigation
@@ -326,8 +325,6 @@ theme = "hugo-elate-theme"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-phone", "(+27) 72-662-0007"],
-        ["icon-envelope", "p.maskowicz@gmail.com"],
         ["icon-social-github", '<a href="https://github.com/4Ply/" target="_blank">GitHub</a>'],
         ["icon-globe", '<a href="https://www.linkedin.com/in/pawel-maskowicz-5b0476a7/" target="_blank">LinkedIn</a>'],
         ["icon-social-twitter", '<a href="https://twitter.com/pawel_maskowicz" target="_blank">Twitter</a>']
