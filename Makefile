@@ -1,3 +1,6 @@
+init:
+	git clone https://github.com/saey55/hugo-elate-theme themes/hugo-elate-theme
+
 build:
 	hugo
 
